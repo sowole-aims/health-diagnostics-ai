@@ -1,0 +1,34 @@
+# Python specific ignores
+
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment specific ignores
+venv/
+env/
+# Exclude .env file
+.env
+.venv/
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+logs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Model and data directories
+model/
+datasets/
+ testing_data/
+# Logs
+*.log
